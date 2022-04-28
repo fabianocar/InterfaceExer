@@ -6,11 +6,11 @@ import java.util.List;
 
 public class Contract {
 
-	private int number;
+	private Integer number;
 	private Date date;
 	private double totalValue;
 	
-	private List<Installment> installments = new ArrayList<>();
+	private List<Installment> installments = new ArrayList<Installment>();
 	
 	public Contract() {
 	}
@@ -21,7 +21,7 @@ public class Contract {
 		this.totalValue = totalValue;
 	}
 
-	public int getNumber() {
+	public Integer getNumber() {
 		return number;
 	}
 
